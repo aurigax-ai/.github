@@ -2,9 +2,13 @@ Making AI organizations observable, understandable, and trustworthy.
 
 ## Ostia
 
+<a href="https://github.com/aurigax-ai/ostia"><img src="https://raw.githubusercontent.com/aurigax-ai/.github/main/profile/assets/ostia-icon.png" width="72" height="72" alt="Ostia icon"></a>
+
 [Ostia](https://github.com/aurigax-ai/ostia) is one workspace for you and your coding agents: a
 terminal for macOS and Linux where Claude Code, Codex and your own shell share panes, a browser,
 diffs and approvals.
+
+<img src="https://raw.githubusercontent.com/aurigax-ai/.github/main/profile/assets/ostia-hero.webp" alt="Ostia with six projects in the sidebar, an agent session and the diff of its change" width="720">
 
 [Website](https://aurigax-ai.github.io/) · [Download](https://github.com/aurigax-ai/ostia/releases/latest) · [Write an extension](https://www.npmjs.com/package/@aurigax-ai/ostia-extension-sdk)
 
