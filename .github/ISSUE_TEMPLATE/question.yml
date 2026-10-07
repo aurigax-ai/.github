@@ -1,0 +1,34 @@
+name: Question
+description: Ask how to do something with Ostia
+labels: ["question", "status: needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We do not use GitHub Discussions, so questions are issues. The [website](https://aurigax-ai.github.io/) and the [README](https://github.com/aurigax-ai/ostia#readme) may already answer yours.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: What you tried
+      description: What you did, and what happened.
+  - type: input
+    id: version
+    attributes:
+      label: Ostia version
+      description: Run `ostia --version` in a terminal, or on macOS choose Ostia > About Ostia.
+      placeholder: "0.5.9"
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - macOS
+        - Arch Linux or CachyOS
+        - Debian or Ubuntu
+        - Other Linux
